@@ -76,10 +76,10 @@ header {
   font-size: 18px;
   font-weight: 400;
 }
-.banner{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .star-design {
   margin-top: 10px;
@@ -130,60 +130,60 @@ header {
   height: 17px;
   color: var(--white);
 }
-.social-icon{
-    margin-top: 2rem;
-    display: flex;
-    align-items: center;
-    gap: 20px;
+.social-icon {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
-.fa-brands{
-    color: var(--white-half);
+.fa-brands {
+  color: var(--white-half);
 }
 
 /* about section */
-.about-section{
-    margin-top: 5rem;
+.about-section {
+  margin-top: 5rem;
 }
-.about-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.container-1 h1{
+.container-1 h1 {
   font-family: "Rubik", sans-serif;
   font-size: 40px;
-font-weight: 800;
-color: var(--white);
-margin-bottom: 1rem;
+  font-weight: 800;
+  color: var(--white);
+  margin-bottom: 1rem;
 }
-.container-1 p{
+.container-1 p {
   font-family: "Rubik", sans-serif;
   font-size: 18px;
-font-weight: 400;
-color: var(--white-half);
+  font-weight: 400;
+  color: var(--white-half);
 }
-.container-2 h1{
+.container-2 h1 {
   font-family: "Rubik", sans-serif;
   font-size: 47px;
-font-weight: 700;
-color: var(--white);
+  font-weight: 700;
+  color: var(--white);
 }
-.container-2 p{
+.container-2 p {
   font-family: "Rubik", sans-serif;
   font-size: 20px;
-font-weight: 400;
-color: var(--white);
+  font-weight: 400;
+  color: var(--white);
 }
-.container-2 img{
+.container-2 img {
   margin-bottom: 1rem;
 }
 /* full width section */
-.full-container{
+.full-container {
   width: 100vw;
-  background-image: linear-gradient(to right, #2D2531, #342D22);
-margin-top: 3rem;
+  background-image: linear-gradient(to right, #2d2531, #342d22);
+  margin-top: 3rem;
 }
-.half-container{
+.half-container {
   width: 80%;
   margin: 0 auto 0 auto;
   display: flex;
@@ -191,50 +191,50 @@ margin-top: 3rem;
   align-items: center;
   padding: 4rem 0;
 }
-.half-item-1 h3{
-font-family: "Rubik", sans-serif;
-color: var(--white);
-font-size: 18px;
-font-weight: 600;
-font-style: italic;
-margin-bottom: 10px;
-}
-.half-item-1 h1{
+.half-item-1 h3 {
   font-family: "Rubik", sans-serif;
-color: var(--white);
-font-size: 40px;
-font-weight: 700;
-text-transform: uppercase;
-margin-bottom: 1rem;
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 10px;
 }
-.half-item-1 p{
+.half-item-1 h1 {
+  font-family: "Rubik", sans-serif;
+  color: var(--white);
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.half-item-1 p {
   font-family: "Rubik", sans-serif;
   color: var(--white);
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
 }
-.half-item-2 h3{
-font-family: "Rubik", sans-serif;
-color: var(--white);
-font-size: 18px;
-font-weight: 700;
-font-style: italic;
+.half-item-2 h3 {
+  font-family: "Rubik", sans-serif;
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 700;
+  font-style: italic;
 }
-.half-item-2 p{
+.half-item-2 p {
   font-family: "Rubik", sans-serif;
   color: var(--white);
   font-size: 16px;
   font-weight: 400;
 }
-.half-item-2 h2{
+.half-item-2 h2 {
   font-family: "Rubik", sans-serif;
   color: var(--white);
   font-size: 32px;
   font-weight: 700;
 }
 
-.same-container{
+.same-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -242,11 +242,71 @@ font-style: italic;
   margin-bottom: 8px;
   margin-top: 1.5rem;
 }
-.three-container{
+.three-container {
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--white);
 }
+/* main section start  */
 
-
-
-
+main{
+  width: 80%;
+  margin: 0 auto 0 auto;
+}
+/* awards section */
+.award-section{
+  margin-top: 5rem;
+}
+.award-section h1{
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  color: var(--white);
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 1.2rem;
+}
+.award-section #text{
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  color: var(--white-half);
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 1rem;
+}
+.awards-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.award-number{
+  padding: 2rem;
+  width: 100%;
+  background-color: #000;
+}
+.award-part{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.awards-container h2{
+  font-family: "Rubik", sans-serif;
+  color: var(--white);
+  font-size: 24px;
+  font-weight: 400;
+}
+.awards-container h3{
+  font-family: "Rubik", sans-serif;
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 700;
+}
+.awards-container p{
+  font-family: "Rubik", sans-serif;
+  color: var(--white-half);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-left: auto;
+}
